@@ -1,0 +1,20 @@
+{
+  "name": "perspective-backend",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "packageManager": "yarn@1.22.22",
+  "devDependencies": {
+    "@types/config": "^3.3.4",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.0",
+    "config": "^3.3.11",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
