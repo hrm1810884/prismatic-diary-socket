@@ -20,7 +20,7 @@ const io = new socket_io_1.Server(httpServer, {
     },
 });
 app.get("/", (_, res) => res.send(`Server is up`));
-httpServer.listen(port, () => {
+httpServer.listen(port, host, () => {
     console.log(`http://${host}:${port}`);
     (0, socket_1.default)({ io });
 });
