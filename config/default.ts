@@ -1,5 +1,8 @@
 export default {
-  corsOrigin: ["http://localhost:3000", "http://localhost:3001"],
+  corsOrigin: [
+    "https://prismaticdiary-hrm1810884s-projects.vercel.app/",
+    "http://localhost",
+  ],
   port: 8081,
   host: "localhost",
 };
