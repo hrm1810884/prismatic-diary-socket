@@ -4,5 +4,5 @@ export default {
     "http://localhost",
   ],
   port: 8081,
-  host: "localhost",
+  host: "https://prismatic-diary-socket.vercel.app/",
 };
